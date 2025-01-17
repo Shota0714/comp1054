@@ -1,2 +1,66 @@
 @charset "UTF-8";
 
+/* Named Selctor
+------------------------------------------------- */
+h2 {
+    color: red;
+}
+/* ID Selctor
+------------------------------------------------- */
+#project {
+    color: olive;
+}
+/* Class Selctor
+------------------------------------------------- */
+.desc {
+    background-color: lightgrey;
+    font-style: italic;
+}
+/* Contextual/Descendent Selctor
+------------------------------------------------- */
+section p {
+    color: darkblue;
+}
+
+.desc h2 {
+    border: 3px dashed orange;
+}
+
+.about section p {
+    background-color: lime;
+}
+/* Grouped Selctor
+------------------------------------------------- */
+h1, h2, h3 {
+    font-family: sans-serif;
+}
+/* Pseudo-Class Selctor
+------------------------------------------------- */
+a:link {
+    color: lightsalmon;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited {
+    color: darkslategray;
+}
+a:focus {
+    color: hotpink;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: red;
+}
+/* Structual Pseudo-Class Selctor
+------------------------------------------------- */
+li:nth-child(3n-1) {
+    background-color: yellow;
+}
+li:nth-of-type(even) {
+    background: lightblue;
+}
+article section:last-of-type {
+    background: pink;
+}
