@@ -1,0 +1,57 @@
+#p {
+    width: 700px;
+    margin: 20px auto 50px;
+}
+
+header {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.e {
+    display: inline-block;
+    border: solid 1px black;
+    text-align: left;
+    font-size: 1rem;
+    margin: 1%;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+h2 {
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    word-spacing: 3px;
+}
+
+h3 {
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: sans-serif;
+}
+
+main {
+    column-count: 3;
+}
+
+p {
+    display: block;
+    text-align: left;
+    hyphens: auto;
+    margin: 0;
+    text-indent: 1rem;
+    font-size: small;
+}
+
+.p {
+    text-indent: 0;
+}
