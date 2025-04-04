@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+html {
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 30px 0 0 30px;
+}
+
+ table {
+    border-collapse: collapse;
+    caption-side: left;
+    table-layout: auto;
+    width: 90%;
+}
+
+colgroup col:nth-child(7) {
+    background-color: rgba(41, 166, 224, 0.25);
+}
+
+td, th {
+    padding: 0.3em;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+tbody th {
+    text-align: left;
+}
+
+tbody td {
+    text-align: center;
+}
+
+caption {
+    font-size: 120%;
+    text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(192, 191, 191, 0.25);
+}
